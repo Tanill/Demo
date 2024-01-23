@@ -1,0 +1,73 @@
+body{
+    background-color: lightgray;
+    color: black;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+.navbar p{
+    display: inline-block;
+    margin: 10px 10px;
+
+    
+}
+a {
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+    text-shadow: 0.75px 0.75px black;
+}
+a:hover{
+    background-color: aquamarine;
+    text-shadow: 1px;
+    padding: 10px;
+
+}
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+.mission {
+    display: flex;
+    height: 500px;
+    background-image: url("/sander-yigin-ki19VJAGh6w-unsplash.jpg");
+    background-size: 1200px 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.mission .content {
+    margin: 20px auto;
+    background-color: lightgray;
+    width: 1200px;
+    height: 150px;
+}
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company img{
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
